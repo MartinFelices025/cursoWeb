@@ -1,0 +1,41 @@
+/*Cine*/
+
+.tituloCine {
+    width: 100%;
+    height: 20rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".././asserts/peliculaAfiche.jpeg") center center;
+    background-size: cover;
+    padding: 0;
+    color: white;
+}
+
+.containerCine {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: min-content min-content;
+    gap: 16px 0px;
+    grid-template-areas:
+        "video"
+        "descripcion";
+}
+
+.video {
+    grid-area: video;
+    align-self: center;
+    justify-self: center;
+}
+
+.descripcion {
+    grid-area: descripcion;
+    align-self: center;
+    justify-self: center;
+}
+
+.cineDescripcion {
+
+    padding: 1rem;
+    margin: 1rem 4rem;
+    background-color:$color-azul;
+    color: white;
+    border-radius: 1%;
+}

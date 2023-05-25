@@ -1,0 +1,452 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*NavBar*/
+.itemMenu {
+  margin: 0 2rem;
+}
+
+.logo {
+  max-width: 90px;
+  max-height: 90px;
+}
+
+.redesSolicalesImg {
+  border-radius: 10%;
+  width: auto;
+  max-width: 30px;
+  max-height: 30px;
+  margin: 0 0.5rem;
+}
+
+.elementoMenu {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.elementoMenu:hover {
+  color: #307abd;
+}
+
+.container {
+  width: 100%;
+  background-color: #181f2a;
+}
+
+/* --- Main --- */
+.main {
+  min-height: 110rem;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.titulo {
+  width: 100%;
+  height: 30rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../asserts/dontpancbanner2.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../asserts/dontpancbanner2.jpg") center center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+  margin-bottom: -120px;
+  color: white;
+}
+
+.contenido {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+.titulo > h2 {
+  padding-bottom: 2rem;
+}
+
+.titulo > p {
+  margin: 1rem;
+}
+
+.separador {
+  border-top: 1px solid rgb(255, 255, 255);
+  height: 2px;
+  max-width: 200px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
+
+.obras {
+  text-align: center;
+  color: white;
+}
+
+.obras > p {
+  margin-bottom: 1rem;
+}
+
+.primero {
+  background-color: #307abd;
+}
+
+.libros-contenedor {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  right: 0;
+}
+
+.libros-contenedor img {
+  border-radius: 5%;
+}
+
+.libros-contenedor__arriba__libro, .libros-contenedor__abajo__libro {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  margin: 1.5rem;
+  border-radius: 5%;
+}
+
+.libros {
+  border-radius: 10%;
+  border: black;
+  margin: 1rem;
+  height: auto;
+  width: auto;
+  max-width: 80%;
+}
+
+.libros-descripcion p {
+  margin: 1rem;
+}
+
+.img-libros {
+  width: 286px;
+  height: 448px;
+}
+
+.texto-abajo > p {
+  width: auto;
+  color: black;
+  border-bottom: 1px solid rgb(63, 63, 63);
+}
+
+/* --- Footer --- */
+.container_footer {
+  width: 100%;
+  background-color: #f8f9fa;
+}
+
+footer {
+  width: 100%;
+  margin-top: auto;
+}
+
+.footer-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 2rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container_footer > ul > li > a {
+  color: rgb(0, 0, 0);
+}
+
+.container_footer > ul > li > a > img {
+  border-radius: 10%;
+  width: auto;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.elemento_footer {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.elemento_footer:hover {
+  color: #307abd;
+}
+
+/* Formulario */
+.tituloFormulario {
+  width: 100%;
+  height: 20rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(.././asserts/dontpancbanner.jpg) center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(.././asserts/dontpancbanner.jpg) center center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+  z-index: 1;
+  margin-bottom: -120px;
+  color: white;
+}
+
+.mainFormulario {
+  background-color: #f8f9fa;
+}
+
+.titulo-contacto p {
+  margin: 1rem;
+}
+
+.formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #363434;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  float: center;
+  color: #0e0e0e;
+}
+
+button p {
+  color: #fff;
+}
+
+span {
+  color: #141114;
+}
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+/* Libros */
+.tituloLibros {
+  width: 100%;
+  height: 20rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../asserts/dontpancbanner2.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../asserts/dontpancbanner2.jpg") center center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+  margin-bottom: -120px;
+  color: white;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  margin-top: 8rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content;
+  grid-template-rows: min-content min-content min-content;
+  grid-template-areas: "imagen imagen text text" "imagen imagen text text" "descripcion descripcion descripcion descripcion";
+}
+
+.imagen {
+  grid-area: imagen;
+}
+
+.text {
+  grid-area: text;
+}
+
+.descripcion {
+  grid-area: descripcion;
+}
+
+.libros-datos {
+  color: black;
+  font-size: 80%;
+}
+
+.libros-datos li {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.libros-datos li:hover {
+  color: #307abd;
+}
+
+.libros-datos li {
+  margin: 1rem;
+  list-style-type: square;
+  text-align: left;
+}
+
+.libros-img {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.libros-descripcion {
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #307abd;
+  color: white;
+  border-radius: 1%;
+}
+
+/*Cine*/
+.tituloCine {
+  width: 100%;
+  height: 20rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(".././asserts/peliculaAfiche.jpeg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".././asserts/peliculaAfiche.jpeg") center center;
+  background-size: cover;
+  padding: 0;
+  color: white;
+}
+
+.containerCine {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: -webkit-min-content -webkit-min-content;
+  grid-template-rows: min-content min-content;
+  gap: 16px 0px;
+  grid-template-areas: "video" "descripcion";
+}
+
+.video {
+  grid-area: video;
+  align-self: center;
+  justify-self: center;
+}
+
+.descripcion {
+  grid-area: descripcion;
+  align-self: center;
+  justify-self: center;
+}
+
+.cineDescripcion {
+  padding: 1rem;
+  margin: 1rem 4rem;
+  background-color: #307abd;
+  color: white;
+  border-radius: 1%;
+}
+
+/* 42 */
+.card-42 {
+  padding: 8rem;
+  text-align: center;
+  color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(.././asserts/dontpancbanner.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(.././asserts/dontpancbanner.jpg);
+  background-position: top;
+}
+
+.cuerpo-42 {
+  width: auto;
+  height: auto;
+  margin: 60px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #3d3a3a;
+}
+
+.img-42-l {
+  margin: 0.5rem;
+  height: auto;
+  width: auto;
+  max-width: 250px;
+  max-height: 250px;
+  float: left;
+}
+
+.img-42-r {
+  margin: 0.5rem;
+  height: auto;
+  width: auto;
+  max-width: 250px;
+  max-height: 250px;
+  float: right;
+}
+
+.elementos {
+  display: inline;
+}
+
+.texto-42 {
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 1.2rem;
+  margin: 0.5rem;
+  white-space: pre-line;
+}
+
+/* Media Querys */
+@media (max-width: 1024px) {
+  .main {
+    min-height: 150rem;
+  }
+}
+@media (max-width: 700px) {
+  .main {
+    min-height: 225rem;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content min-content;
+    grid-template-areas: "imagen" "text" "descripcion";
+  }
+  .videoResponsive iframe {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

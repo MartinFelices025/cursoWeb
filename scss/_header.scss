@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*NavBar*/
+.itemMenu {
+    margin: 0 2rem;
+}
+
+.logo {
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.redesSolicalesImg {
+    border-radius: 10%;
+    width: auto;
+    max-width: 30px;
+    max-height: 30px;
+    margin: 0 0.5rem;
+}
+
+.elementoMenu {
+    transition: 0.3s;
+}
+
+.elementoMenu:hover {
+    color:$color-azul;
+}
+
+.container {
+    width: 100%;
+    background-color: #181f2a;
+}

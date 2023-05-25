@@ -1,0 +1,78 @@
+/* Libros */
+
+.tituloLibros {
+    width: 100%;
+    height: 20rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../asserts/dontpancbanner2.jpg") center center;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+    margin-bottom: -120px;
+    color: white;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    margin-top: 8rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-rows: min-content min-content min-content;
+    grid-template-areas:
+        "imagen imagen text text"
+        "imagen imagen text text"
+        "descripcion descripcion descripcion descripcion";
+}
+
+.imagen {
+    grid-area: imagen;
+}
+
+.text {
+    grid-area: text;
+}
+
+.descripcion {
+    grid-area: descripcion;
+}
+
+.libros-datos {
+    color: black;
+    font-size: 80%;
+}
+
+.libros-datos li {
+    transition: 0.3s;
+}
+
+.libros-datos li:hover {
+    color: $color-azul;
+}
+
+.libros-datos li {
+    margin: 1rem;
+    list-style-type: square;
+    text-align: left;
+}
+
+.libros-img {
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.libros-descripcion {
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: $color-azul;
+    color: white;
+    border-radius: 1%;
+}
+

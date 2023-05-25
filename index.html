@@ -3,66 +3,88 @@
 
 <head>
     <meta charset="UTF-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Libros y obras del gran Douglas Adams">
+    <meta name="author" content="Martín Felices">
+    <meta name="copyright" content="HolaMundoIT">
+    <meta name="keywords" content="Guía del Autoestopista, Douglas Adams, Obras, Ciencia Ficción">
+
+    <meta property="og:title" content="Guia del Autoestopista Galáctico" />
+    <meta property="og:description" content="Saga del Autoestopista Galáctico, obras y detalles" />
+    <meta property="og:image" content="./asserts/42-2.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES"/>
+    <meta property="og:locale:alternate" content="us_US" />
+
+    <link rel="icon" type="image/x-icon" href="./asserts/logo-ico.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    
+    <link rel="stylesheet" href="./css/main.css">
     <title>GAG</title>
 </head>
 
 <body>
     <header>
- <!--inicia Navbar-->
- <section>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="./index.html"><img class="navbar-brand logo" src="./asserts/logo.png"
-                    alt="Logo"></a>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item itemMenu">
-                        <a class="nav-link elementoMenu" aria-current="page" href="#libros">Libros</a>
-                    </li>
-                    <li class="nav-item itemMenu">
-                        <a class="nav-link elementoMenu" aria-current="page" href="./pages/cine.html">Peliculas</a>
-                    </li>
-                    <li class="nav-item itemMenu">
-                        <a class="nav-link elementoMenu" aria-current="page" href="./pages/42.html">42</a>
-                    </li>
-                    <li class="nav-item itemMenu">
-                        <a class="nav-link elementoMenu" aria-current="page" href="./pages/noticias.html">Noticias</a>
-                    </li>
-                </ul>
-                <div class="d-flex">
-                    <a href="https://es-la.facebook.com/" target="_blank"><img class="redesSolicalesImg" src="./asserts/facebook.png" alt=""></a>
-                    <a href="https://www.instagram.com/" target="_blank"><img class="redesSolicalesImg" src="./asserts/instagram.png" alt=""></a>
-                    <a href="https://www.tiktok.com/" target="_blank"><img class="redesSolicalesImg" src="./asserts/tik-tok.png" alt=""></a>
-                    <a href="https://twitter.com/" target="_blank"><img class="redesSolicalesImg" src="./asserts/twitter.png" alt=""></a>
+        <!--inicia Navbar-->
+        <section>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="./index.html"><img class="navbar-brand logo" alt="logo" src="./asserts/logo.png"
+                            alt="Logo"></a>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item itemMenu">
+                                <a class="nav-link elementoMenu" aria-current="page" href="#libros">Libros</a>
+                            </li>
+                            <li class="nav-item itemMenu">
+                                <a class="nav-link elementoMenu" aria-current="page"
+                                    href="./pages/cine.html">Peliculas</a>
+                            </li>
+                            <li class="nav-item itemMenu">
+                                <a class="nav-link elementoMenu" aria-current="page" href="./pages/42.html">42</a>
+                            </li>
+                            <li class="nav-item itemMenu">
+                                <a class="nav-link elementoMenu" aria-current="page"
+                                    href="./pages/noticias.html">Noticias</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex">
+                            <a href="https://es-la.facebook.com/" target="_blank"><img alt="facebook" class="redesSolicalesImg"
+                                    src="./asserts/facebook.png"></a>
+                            <a href="https://www.instagram.com/" target="_blank"><img alt="instagram" class="redesSolicalesImg"
+                                    src="./asserts/instagram.png"></a>
+                            <a href="https://www.tiktok.com/" target="_blank"><img alt="tiktok" class="redesSolicalesImg"
+                                    src="./asserts/tik-tok.png"></a>
+                            <a href="https://twitter.com/" target="_blank"><img alt="twitter" class="redesSolicalesImg"
+                                    src="./asserts/twitter.png"></a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </nav>
-</section>
+            </nav>
+        </section>
     </header>
     <main class="main">
         <article>
             <section>
                 <div class="titulo">
                     <div class="contenido">
-                    <h1>Guía del Autoestopista Galáctico</h1>
-                    <h2>Douglas Adams</h2>
-                    <div class="separador"></div>
-                    <p>Obras</p>
-                    <p>“Hay un arte, dice, o mejor dicho, una habilidad para volar. La habilidad está en aprender a
-                        tirarse al suelo y fallar”</p>
+                        <h1>Guía del Autoestopista Galáctico</h1>
+                        <h2>Douglas Adams</h2>
+                        <div class="separador"></div>
+                        <p>Obras</p>
+                        <p>“Hay un arte, dice, o mejor dicho, una habilidad para volar. La habilidad está en aprender a
+                            tirarse al suelo y fallar”</p>
                     </div>
                 </div>
             </section>
@@ -74,76 +96,85 @@
 
                     <div class="libros-contenedor" id="libros">
                         <div class="libros-contenedor__arriba">
-                        <div class="libros-contenedor__arriba__libro">
-                        <div class="card primero" style="width: 18rem;">
-                            <img src="./asserts/l1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title text-light">Guía del autoestopista galáctico</h5>
-                              <p class="card-text text-light">Primer obra de esta increible saga!</p>
-                              <a href="./pages/gagLibro.html" class="btn btn-light">Ver más</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="libros-contenedor__arriba__libro">
-                          <div class="card" style="width: 18rem;">
-                            <img src="./asserts/l2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">El restaurante del fin del mundo</h5>
-                              <a href="./pages/restaurantLibro.html" class="btn btn-primary">Ver más</a>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="libros-contenedor__arriba__libro">
-                            <div class="card" style="width: 18rem;">
-                              <img src="./asserts/l3.jpg" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title">Hasta luego, y gracias por el pescado</h5>
-                                <a href="./pages/pescadoLibro.html" class="btn btn-primary">Ver más</a>
-                              </div>
-                            </div>
-                          </div>
-
-                        <div class="libros-contenedor__abajo">
-                            <div class="libros-contenedor__abajo__libro">
-                                <div class="card" style="width: 18rem;">
-                                    <img src="./asserts/l4.jpg" class="card-img-top" alt="...">
+                            <div class="libros-contenedor__arriba__libro">
+                                <div class="card primero" style="width: 18rem;">
+                                    <img src="./asserts/l1.jpg" class="card-img-top img-libros" alt="Primer libro"
+                                        title="Primer libro">
                                     <div class="card-body">
-                                      <h5 class="card-title">Informe sobre la tierra:
-                                        Fundamentalmente inofensiva</h5>
-                                      <a href="./pages/infomeLibro.html" class="btn btn-primary">Ver más</a>
+                                        <h5 class="card-title text-light">Guía del autoestopista galáctico</h5>
+                                        <p class="card-text text-light">Primer obra de esta increible saga!</p>
+                                        <a href="./pages/gagLibro.html" class="btn btn-light">Ver más</a>
                                     </div>
-                                  </div>
+                                </div>
                             </div>
-                            <div class="libros-contenedor__abajo__libro">
+                            <div class="libros-contenedor__arriba__libro">
                                 <div class="card" style="width: 18rem;">
-                                    <img src="./asserts/l5.jpg" class="card-img-top" alt="...">
+                                    <img src="./asserts/l2.jpg" class="card-img-top img-libros" alt="Segundo libro"
+                                        title="Segundo libro">
                                     <div class="card-body">
-                                      <h5 class="card-title">La vida, el universo y todo lo demás</h5>
-                                      <a href="./pages/demasLibro.html" class="btn btn-primary">Ver más</a>
+                                        <h5 class="card-title">El restaurante del fin del mundo</h5>
+                                        <a href="./pages/restaurantLibro.html" class="btn btn-primary">Ver más</a>
                                     </div>
-                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="libros-contenedor__arriba__libro">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./asserts/l3.jpg" class="card-img-top img-libros" alt="Tercer libro"
+                                        title="Tercer libro">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Hasta luego, y gracias por el pescado</h5>
+                                        <a href="./pages/pescadoLibro.html" class="btn btn-primary">Ver más</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="libros-contenedor__abajo">
+                                <div class="libros-contenedor__abajo__libro">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="./asserts/l4.jpg" class="card-img-top img-libros" alt="Cuarto libro"
+                                            title="Cuarto libro">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Informe sobre la tierra:
+                                                Fundamentalmente inofensiva</h5>
+                                            <a href="./pages/infomeLibro.html" class="btn btn-primary">Ver más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="libros-contenedor__abajo__libro">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="./asserts/l5.jpg" class="card-img-top img-libros" alt="Quinto libro"
+                                            title="Quinto libro">
+                                        <div class="card-body">
+                                            <h5 class="card-title">La vida, el universo y todo lo demás</h5>
+                                            <a href="./pages/demasLibro.html" class="btn btn-primary">Ver más</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
             </section>
         </article>
     </main>
     <footer>
-        <hr class="hr hr-blurry"/>
+        <hr class="hr hr-blurry" />
         <div class="container-fluid container_footer">
             <ul class="footer-items">
                 <li><a href="#">
-                        <p>Copyright CursoWeb 2023 <div class="separador"></div>
+                        <p class="elemento_footer">Copyright CursoWeb 2023 <div class="separador"></div>
                         </p>
                     </a></li>
-                <li><a href="https://es-la.facebook.com/" target="_blank"><img class="redesSolicalesImg" src="./asserts/facebook.png" alt=""></a></li>
-                <li><a href="https://www.instagram.com/" target="_blank"><img class="redesSolicalesImg" src="./asserts/instagram.png" alt=""></a></li>
-                <li><a href="https://www.tiktok.com/" target="_blank"><img class="redesSolicalesImg" src="./asserts/tik-tok.png" alt=""></a></li>
-                <li><a href="https://twitter.com/" target="_blank"><img class="redesSolicalesImg" src="./asserts/twitter.png" alt=""></a></li>
-                    <li><a href="./pages/noticias.html">
-                        <p>Contacto</p>
+                <li><a href="https://es-la.facebook.com/" target="_blank"><img alt="facebook" class="redesSolicalesImg"
+                            src="./asserts/facebook.png"></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img alt="instagram" class="redesSolicalesImg"
+                            src="./asserts/instagram.png"></a></li>
+                <li><a href="https://www.tiktok.com/" target="_blank"><img alt="tiktok" class="redesSolicalesImg"
+                            src="./asserts/tik-tok.png"></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><img alt="twitter" class="redesSolicalesImg"
+                            src="./asserts/twitter.png"></a></li>
+                <li><a href="./pages/noticias.html">
+                        <p class="elemento_footer">Contacto</p>
                         <div class="separador"></div>
                     </a></li>
             </ul>
@@ -152,8 +183,8 @@
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-crossorigin="anonymous"></script>
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 <script type="text/javascript">
     $(document).ready(function () {

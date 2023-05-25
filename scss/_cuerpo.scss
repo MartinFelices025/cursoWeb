@@ -1,0 +1,107 @@
+/* --- Main --- */
+.main {
+    min-height: 110rem;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.titulo {
+    width: 100%;
+    height: 30rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../asserts/dontpancbanner2.jpg") center center;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+    margin-bottom: -120px;
+    color: white;
+}
+
+.contenido {
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+.titulo>h2 {
+    padding-bottom: 2rem;
+}
+
+.titulo>p {
+    margin: 1rem;
+}
+
+.separador {
+    border-top: 1px solid rgb(255, 255, 255);
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
+
+.obras {
+    text-align: center;
+    color: white;
+}
+
+.obras>p {
+    margin-bottom: 1rem;
+}
+
+.primero {
+    background-color: $color-azul;
+}
+
+.libros-contenedor {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    right: 0;
+}
+
+.libros-contenedor img {
+    border-radius: 5%;
+}
+
+.libros-contenedor__arriba__libro, .libros-contenedor__abajo__libro {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    margin: 1.5rem;
+    border-radius: 5%;
+}
+
+.libros {
+    border-radius: 10%;
+    border: black;
+    margin: 1rem;
+    height: auto;
+    width: auto;
+    max-width: 80%;
+}
+
+.libros-descripcion p {
+    margin: 1rem;
+}
+
+.img-libros{
+    width:286px;
+    height:448px
+    
+}
+
+.texto-abajo>p {
+    width: auto;
+    color: black;
+    border-bottom: 1px solid rgb(63, 63, 63);
+}

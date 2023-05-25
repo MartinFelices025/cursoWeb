@@ -1,0 +1,49 @@
+/* 42 */
+
+.card-42 {
+    padding: 8rem;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(.././asserts/dontpancbanner.jpg);
+    background-position: top;
+}
+
+.cuerpo-42 {
+    width: auto;
+    height: auto;
+    margin: 60px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: $color-fondo;
+}
+
+.img-42-l {
+    margin: .5rem;
+    height: auto;
+    width: auto;
+    max-width: 250px;
+    max-height: 250px;
+    float: left;
+}
+
+.img-42-r {
+    margin: .5rem;
+    height: auto;
+    width: auto;
+    max-width: 250px;
+    max-height: 250px;
+    float: right;
+}
+
+.elementos {
+    display: inline;
+}
+
+.texto-42 {
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.2rem;
+    margin: .5rem;
+    white-space: pre-line;
+}

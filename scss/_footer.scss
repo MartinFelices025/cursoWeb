@@ -1,0 +1,36 @@
+/* --- Footer --- */
+.container_footer {
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+footer {
+    width: 100%;
+    margin-top: auto;
+}
+
+.footer-items {
+    display: flex;
+    list-style-type: none;
+    padding: 2rem;
+    justify-content: space-around;
+}
+
+.container_footer>ul>li>a {
+    color: rgb(0, 0, 0);
+}
+
+.container_footer>ul>li>a>img {
+    border-radius: 10%;
+    width: auto;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.elemento_footer {
+    transition: 0.3s;
+}
+
+.elemento_footer:hover {
+    color: $color-azul;
+}
