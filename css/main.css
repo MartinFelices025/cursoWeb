@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
 /*NavBar*/
 .itemMenu {
   margin: 0 2rem;
@@ -70,11 +74,11 @@ h1 {
   font-size: 300%;
 }
 
-.titulo > h2 {
+.titulo h2 {
   padding-bottom: 2rem;
 }
 
-.titulo > p {
+.titulo p {
   margin: 1rem;
 }
 
@@ -117,6 +121,8 @@ h1 {
   background-color: white;
   margin: 1.5rem;
   border-radius: 5%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 5px -5px;
+          box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 5px -5px;
 }
 
 .libros {
@@ -221,6 +227,8 @@ footer {
   padding-right: 30px;
   position: relative;
   z-index: 1;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 5px -5px;
+          box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 5px -5px;
 }
 
 input {
@@ -266,6 +274,20 @@ span {
   padding: 0;
   margin-bottom: -120px;
   color: white;
+}
+
+.img-libros, .imagen {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.img-libros:hover, .imagen:hover {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+
+.img-libros:hover ~ .libroCard {
+  background-color: red;
 }
 
 .container {
@@ -422,6 +444,20 @@ span {
   white-space: pre-line;
 }
 
+.article404 {
+  padding: 5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: auto;
+  height: auto;
+}
+
 /* Media Querys */
 @media (max-width: 1024px) {
   .main {
@@ -431,6 +467,9 @@ span {
 @media (max-width: 700px) {
   .main {
     min-height: 225rem;
+  }
+  .libros-contenedor {
+    padding-top: 6rem;
   }
 }
 @media (max-width: 768px) {
@@ -448,5 +487,9 @@ span {
     left: 0;
     width: 100%;
     height: 100%;
+  }
+  .article404 img {
+    width: 100%;
+    height: auto;
   }
 }

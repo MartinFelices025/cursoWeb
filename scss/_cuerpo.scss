@@ -1,4 +1,5 @@
 /* --- Main --- */
+
 .main {
     min-height: 110rem;
 }
@@ -32,12 +33,16 @@ h1 {
     font-size: 300%;
 }
 
-.titulo>h2 {
-    padding-bottom: 2rem;
+.titulo{
+    h2 {
+        padding-bottom: 2rem;
+    }
 }
 
-.titulo>p {
-    margin: 1rem;
+.titulo {
+    p {
+        margin: 1rem;
+    }
 }
 
 .separador {
@@ -79,6 +84,7 @@ h1 {
     background-color: white;
     margin: 1.5rem;
     border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 5px -5px;
 }
 
 .libros {

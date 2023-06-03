@@ -11,6 +11,19 @@
     color: white;
 }
 
+.img-libros, .imagen {
+    transition: 0.3s;
+}
+
+.img-libros:hover, .imagen:hover {
+    filter: brightness(50%); // Oscurecer imagen 
+}
+
+.img-libros:hover ~ .libroCard{
+    background-color: red;
+}
+
+
 .container {
     background-color: white;
     padding: 2rem;
