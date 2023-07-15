@@ -1,9 +1,9 @@
 const intentos = 3;
 
-let confirmar=confirm("Debe estar registrado para contiunar!\nDesea Ingresar?");
+let confirmar=confirm("Debe estar registrado para continuar!\nDesea Ingresar?");
 if (confirmar == true) {
-    var textoInicio="A continuación le pediremos su usuarios y contraseña\n";
-    textoInicio+="(Para ingresar a la versión demo, ingrese: ";
+    var textoInicio="A continuación le pediremos su usuario y contraseña\n";
+    textoInicio+="(Para acceder a la versión demo, ingrese: ";
     textoInicio+="usuario1 | pass1)";
     alert(textoInicio);
 } else {
@@ -98,7 +98,7 @@ function menuLibros() {
 
         texto += "\n Colección: " + coleccionGAG.getSaga();
         texto += "\n Cantidad de obras:  " + coleccionGAG.getCantidad();
-        texto += "\n Genero:  " + coleccionGAG.getGenero();
+        texto += "\n Género:  " + coleccionGAG.getGenero();
         texto += "\n ----------";
         texto += "\n Obras:";
         coleccionGAG.getLibros().forEach(libro => {
@@ -107,7 +107,7 @@ function menuLibros() {
         texto += "\n ----------";
         texto += "\n Colección: " + coleccionDG.getSaga();
         texto += "\n Cantidad de obras:  " + coleccionDG.getCantidad();
-        texto += "\n Genero:  " + coleccionDG.getGenero();
+        texto += "\n Género:  " + coleccionDG.getGenero();
         texto += "\n ----------";
         texto += "\n Obras:";
         coleccionDG.getLibros().forEach(libro => {
